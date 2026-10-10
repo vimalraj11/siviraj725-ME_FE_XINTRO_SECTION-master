@@ -366,7 +366,15 @@ a:focus-visible {
     justify-content: space-between;
     padding: 22px 18px;
   }
-
+    .overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: max(240px, min(68vw, 280px));
+    bottom: 0;
+    left: 0;
+    width: auto;
+  }
   .logo {
     width: 84px;
   }
