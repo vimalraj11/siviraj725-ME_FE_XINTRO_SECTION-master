@@ -360,7 +360,7 @@ a:focus-visible {
 
   .header {
     position: relative;
-    z-index: 30;
+    z-index: auto;
     justify-content: space-between;
     padding: 22px 18px;
   }
