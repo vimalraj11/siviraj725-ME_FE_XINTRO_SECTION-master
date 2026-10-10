@@ -1,3 +1,4 @@
+
 :root {
   --almost-white: #fafafa;
   --medium-gray: #696969;
@@ -288,9 +289,10 @@ a:focus-visible {
   color: #726cee;
 }
 
+/* Overlay: sits above the page and header content */
 .overlay {
   position: fixed;
-  z-index: 19;
+  z-index: 31;
   inset: 0;
   background: rgba(0, 0, 0, .55);
   opacity: 0;
@@ -387,7 +389,7 @@ a:focus-visible {
 
   .nav {
     position: fixed;
-    z-index: 21;
+    z-index: 32;
     top: 0;
     right: 0;
     bottom: 0;
